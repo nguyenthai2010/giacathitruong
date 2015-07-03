@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta charset="UTF-8">
+    <title>Angular Demo</title>
+    <script src="js/lib/angular/angular.min.js"></script>
+    <script src="js/lib/angular/angular-route.min.js"></script>
+    <script src="js/lib/angular/angular-animate.min.js"></script>
+    <script src="js/lib/jquery-2.1.4.min.js"></script>
+    <script src="js/lib/TweenMax.min.js"></script>
+    <script src="js/lib/jquery.mCustomScrollbar.min.js"></script>
+
+    <script src="js/app/app.js"></script>
+    <script src="js/app/controllers.js"></script>
+    <script src="js/app/class.responesize.js"></script>
+    <script src="js/app/class.homepage.js"></script>
+    <script src="js/app/class.listpage.js"></script>
+
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div class="main" ng-controller="giacaController">
+    <!--Home-->
+    <section class="homepage">
+        <header class="menumain">
+            <img class="ico-menu logo" src="images/logo.png">
+            <p>Giá trị thị trường</p>
+        </header>
+        <article class="listproduct">
+            <section ng-click="myFilter = {gc_c_id: '1'}; changeTitleListPage($event);" data="Nông sản" banner="1">
+                <figure>
+                    <img src="images/1.jpg" >
+                    <p>Nông sản</p>
+                </figure>
+            </section>
+            <section ng-click="myFilter = {gc_c_id: '2'}; changeTitleListPage($event);" data="Thực phẩm" banner="2">
+                <figure>
+                    <img src="images/2.jpg">
+                    <p>Thực phẩm</p>
+                </figure>
+            </section>
+            <section ng-click="myFilter = {gc_c_id: '3'}; changeTitleListPage($event);" data="Năng Lượng" banner="3">
+                <figure>
+                    <img src="images/3.jpg">
+                    <p>Năng Lượng</p>
+                </figure>
+            </section>
+            <section ng-click="myFilter = {gc_c_id: '4'}; changeTitleListPage($event);" data="Mặt hàng khác" banner="4">
+                <figure>
+                    <img src="images/4.jpg">
+                    <p>Mặt hàng khác</p>
+                </figure>
+            </section>
+        </article>
+    </section>
+
+    <!--LIST-->
+    <section class="listpage" style="display: none;">
+        <header class="menumain">
+            <img class="ico-menu" src="images/icon-back.jpg" ng-click="backListPage()">
+
+            <p>{{titlelistpage}}</p>
+            <div class="top-bar">
+                <div class="search-container">
+                    <input class="search" type="search" placeholder="Tìm kiếm" ng-model="searchFilter">
+                </div>
+            </div>
+        </header>
+        <article class="listgiaca">
+            <header><img class="banner" src="images/banner{{bannerlistpage}}.jpg"></header>
+            <nav>
+                <section class="active" ng-click="cityFilter = {khuvuc: ''}">
+                    <header>Tất cả</header>
+                    <p>{{ danhsachgia.thanhpho[4][myFilter.gc_c_id] || '0' }}</p>
+                </section>
+                <section ng-click="cityFilter = {khuvuc: 'TP.HCM'}">
+                    <header>TP.HCM</header>
+                    <p>{{ danhsachgia.thanhpho[1][myFilter.gc_c_id] || '0' }}</p>
+                </section>
+                <section ng-click="cityFilter = {khuvuc: 'Hà Nội'}">
+                    <header>Hà Nội</header>
+                    <p>{{ danhsachgia.thanhpho[2][myFilter.gc_c_id] || '0' }}</p>
+                </section>
+                <section ng-click="cityFilter = {khuvuc: 'Đà Nẵng'}">
+                    <header>Đà Nẵng</header>
+                    <p>{{ danhsachgia.thanhpho[3][myFilter.gc_c_id] || '0' }}</p>
+                </section>
+
+            </nav>
+
+            <section class="danhsach">
+                <section class="chitiet" ng-repeat="item in danhsachgia.giaca | filter: myFilter | filter: cityFilter | filter: searchFilter">
+                    <header><i></i>{{item.mathang}}</header>
+                    <nav>
+                        <ul >
+                            <li>{{item.gia1}}</li>
+                            <li ng-class="tanggiamclass(item.gia1, item.gia2)">{{item.tanggiam}}</li>
+                            <li>{{item.khuvuc}}</li>
+                        </ul>
+                    </nav>
+                    <br clear="all">
+                </section>
+
+            </section>
+        </article>
+    </section>
+</div>
+</body>
+</html>

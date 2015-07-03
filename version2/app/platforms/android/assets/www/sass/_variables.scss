@@ -1,0 +1,41 @@
+
+@mixin objAbsoluteLeft() { 
+	position: absolute;
+	top: 0;
+	left: 0;
+} 
+
+@mixin setOpacity ($value) { 
+	opacity: $value;
+	filter: alpha(opacity=$value*100);
+}
+
+@mixin borderShadow () {
+  -webkit-box-shadow: #eeeeef 0px 1px 5px;
+  -moz-box-shadow: #eeeeef 0px 1px 5px;
+  box-shadow: #eeeeef 0px 1px 5px;
+  background: #FFF;
+}
+
+@function em($size) {
+    @return #{$size / 13px}em;
+}
+
+/*===========FONTS============*/
+$fontArial12: normal 13px/1.2 Arial, Helvetica, sans-serif;
+@mixin FontBold ( $value, $line:1.1 ) {
+	font-family: arial, helvetica, sans-serif;
+	font-size: em($value);
+	line-height: $line;
+	font-weight: bold;
+}
+
+@mixin FontRegular ( $value, $line:1.1 ) {
+  font-family: arial, helvetica, sans-serif;
+  font-size: em($value);
+  line-height: $line;
+  font-weight: normal;
+}
+
+
+

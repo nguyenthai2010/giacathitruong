@@ -1,0 +1,342 @@
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+/* Base Styles */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+html {
+  background-color: #fff;
+  min-height: 100%;
+  height: auto;
+}
+
+body  {
+  @include FontRegular(13px);
+  *zoom: 1;
+  overflow: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #475b62;
+  text-shadow: 1px 1px rgb(255,255,255);
+}
+
+a {
+  color: #145266;
+}
+
+h1{
+  color: #145266;
+  font-size: 2.2rem;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+h2{ 
+  font-size: 1.5rem;
+  line-height: 90%;
+  color: #c61c6f;
+}
+
+h3{ 
+  margin-top: 0;
+  color: #bd3613;
+  line-height: 110%;
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 1.3rem;
+  color: #475B62;
+  margin-bottom: 10px;
+}
+
+a.small {
+  line-height: 100%;
+  font-size: .9rem;
+}
+
+/*HOME*/
+.menumain {
+  height: em(128px);
+  background: #fff;
+
+  p {
+    text-align: center;
+    @include FontBold(36px);
+    text-transform: uppercase;
+    padding-top: 1em;
+    color: #50d2c2;
+  }
+  .ico-menu {
+    width: em(42px);
+    height: em(42px);
+    position: absolute;
+    top: 3em;
+    left: 3em;
+
+    &.logo {
+      width: em(80px);
+      height: em(80px);
+      top: 1.5em;
+
+    }
+  }
+
+}
+
+.listproduct {
+  background: #f8f8f9;
+  position: absolute;
+  bottom: 0;
+
+  section {
+    width: 49%;
+    display: inline-block;
+
+    margin: 1em 0;
+
+    figure {
+      pointer-events: none;
+      @include borderShadow();
+      width: em(345px);
+      margin: 0 auto;
+    }
+    img {
+      width: em(345px);
+      height: em(465px);
+    }
+
+    p {
+      @include FontBold(32px);
+      text-align: center;
+      padding: 1em 0;
+    }
+  }
+}
+
+
+.listgiaca {
+  & > header {
+    width: 100%;
+    height: em(200px);
+    overflow: hidden;
+
+    .banner {
+      width: 100%;
+    }
+  }
+
+  nav {
+
+    section {
+      width: 25%;
+      float: left;
+      height: em(150px);
+      background: #f8f8f9;
+
+
+
+      header {
+        @include FontBold(20px);
+        text-transform: uppercase;
+        text-align: center;
+        margin: 1em 0;
+      }
+
+      p {
+        display: block;
+        width: em(40px);
+        height: em(40px);
+        position: relative;
+        margin: 0 auto;
+        background-color: #b6b6b9;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+
+        @include FontBold(18px, em(40px));
+      }
+
+      &.active {
+        background: #50d2c2;
+
+        header {
+          color: #FFF;
+        }
+
+        p {
+          background: #fff;
+          color: #000;
+        }
+
+      }
+    }
+  }
+}
+
+.danhsach {
+  height: 60em;
+  overflow: hidden;
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  clear: both;
+  top: 1em;
+  .chitiet {
+    padding: 1em 0;
+    border-bottom: 1px solid #f3f3f4;
+
+    header {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 0.3em;
+        left: 0;
+        width: 0.5em;
+        height: 0.5em;
+        background: #50d2c2;
+
+      }
+
+      @include FontRegular(26px);
+      padding-bottom: 0.4em;
+      padding-left: 1em;
+    }
+
+    nav {
+      ul {
+        li {
+          float: left;
+
+          @include FontRegular(20px,29px);
+          height: 29px;
+          padding-left: 40px;
+          &:first-child {
+            width: 50%;
+            background: url("../images/icon-money.png") no-repeat;
+          }
+
+          &:nth-child(2) {
+            width: 20%;
+            background: url("../images/icon-updown.png") no-repeat;
+          }
+
+          &:last-child {
+            width: 30%;
+            background: url("../images/city.png") no-repeat;
+          }
+
+          &.down {
+            color: #50d2c2;
+            font-weight: bold;
+          }
+
+          &.up {
+            color: red;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.top-bar {
+  position: absolute;
+  top: 2.5em;
+  right: 1em;
+
+  .search-container {
+    margin: auto;
+  }
+
+  .search {
+    background: url("../images/icon-search.png") no-repeat ;
+    background-size: 1.5em 1.5em;
+    font-size: 14px;
+    border-radius: em(5px);
+    border: 1px solid #fff;
+    padding: em(5px);
+    width: em(20px);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+    float: right;
+    outline: none;
+  }
+
+  .search:focus {
+    width: em(200px);
+    background: #fff;
+    border: 1px solid #ccc;
+
+  }
+}
