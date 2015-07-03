@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?><root>
+<ratelist updated="12/07/2013">
+    <city id="1" name="Hồ Chí Minh">
+    	<catalogue id="1" name="Nông s?n">
+        
+        	<item name="Bắp cải trắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Bầu" sellbefore="8000" sell="8000" howprice=" 0%"></item>
+        
+        	<item name="Bí đỏ" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Bí xanh" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi da xanh" sellbefore="50000" sell="50000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi năm roi" sellbefore="15000" sell="15000" howprice=" 0%"></item>
+        
+        	<item name="Cà chua" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Cà rốt" sellbefore="8000" sell="10000" howprice=" 25%"></item>
+        
+        	<item name="Cải ngọt" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Cam sành" sellbefore="23300" sell="45000" howprice=" 93.13%"></item>
+        
+        	<item name="Chanh" sellbefore="18000" sell="18000" howprice=" 0%"></item>
+        
+        	<item name="Củ cải trắng" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Dưa chuột" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tám thơm Hải Hậu" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tẻ ngon" sellbefore="16000" sell="16000" howprice=" 0%"></item>
+        
+        	<item name="Khoai tây" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Lê" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Mướp đắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Nho Mỹ" sellbefore="130000" sell="130000" howprice=" 0%"></item>
+        
+        	<item name="Quýt" sellbefore="35000" sell="35000" howprice=" 0%"></item>
+        
+        	<item name="Rau muống" sellbefore="5000" sell="5000" howprice=" 0%"></item>
+        
+        	<item name="Su su" sellbefore="6000" sell="5000" howprice=" -16.67%"></item>
+        
+        	<item name="Táo" sellbefore="23000" sell="23000" howprice=" 0%"></item>
+        
+        	<item name="Táo (Mỹ)" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Thanh long" sellbefore="-" sell="15000" howprice=" -"></item>
+        
+        	<item name="Thịt Gà công nghiệp" sellbefore="80000" sell="80000" howprice=" 0%"></item>
+        
+        	<item name="Trứng gà công nghiệp" sellbefore="3000" sell="2300" howprice=" -23.33%"></item>
+        
+        	<item name="Trứng gà ta" sellbefore="4000" sell="4000" howprice=" 0%"></item>
+        
+        	<item name="Trứng vịt" sellbefore="3500" sell="3500" howprice=" 0%"></item>
+        
+        	<item name="Bắp cải trắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Bầu" sellbefore="8000" sell="8000" howprice=" 0%"></item>
+        
+        	<item name="Bí đỏ" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Bí xanh" sellbefore="8000" sell="6000" howprice=" -25%"></item>
+        
+        	<item name="Bưởi da xanh" sellbefore="50000" sell="50000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi năm roi" sellbefore="15000" sell="15000" howprice=" 0%"></item>
+        
+        	<item name="Cà chua" sellbefore="7000" sell="12000" howprice=" 71.43%"></item>
+        
+        	<item name="Cà rốt" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Cải ngọt" sellbefore="7000" sell="12000" howprice=" 71.43%"></item>
+        
+        	<item name="Cam sành" sellbefore="55000" sell="45000" howprice=" -18.18%"></item>
+        
+        	<item name="Chanh" sellbefore="18000" sell="18000" howprice=" 0%"></item>
+        
+        	<item name="Củ cải trắng" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Dưa chuột" sellbefore="7000" sell="10000" howprice=" 42.86%"></item>
+        
+        	<item name="Gạo tám thơm Hải Hậu" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tẻ ngon" sellbefore="16000" sell="16000" howprice=" 0%"></item>
+        
+        	<item name="Khoai tây" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Lê" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Mướp đắng" sellbefore="6000" sell="10000" howprice=" 66.67%"></item>
+        
+        	<item name="Nho Mỹ" sellbefore="130000" sell="130000" howprice=" 0%"></item>
+        
+        	<item name="Quýt" sellbefore="35000" sell="35000" howprice=" 0%"></item>
+        
+        	<item name="Rau muống" sellbefore="5000" sell="5000" howprice=" 0%"></item>
+        
+        	<item name="Su su" sellbefore="5000" sell="5000" howprice=" 0%"></item>
+        
+        	<item name="Táo" sellbefore="23000" sell="23000" howprice=" 0%"></item>
+        
+        	<item name="Táo (Mỹ)" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Thanh long" sellbefore="-" sell="15000" howprice=" -"></item>
+        
+        	<item name="Thịt Gà công nghiệp" sellbefore="80000" sell="80000" howprice=" 0%"></item>
+        
+        	<item name="Trứng gà công nghiệp" sellbefore="3000" sell="2300" howprice=" -23.33%"></item>
+        
+        	<item name="Trứng gà ta" sellbefore="4000" sell="4000" howprice=" 0%"></item>
+        
+        	<item name="Trứng vịt" sellbefore="3500" sell="3500" howprice=" 0%"></item>
+            
+        </catalogue>
+    	<catalogue id="2" name="Th?c ph?m">
+        
+        	<item name="Cá chép" sellbefore="70000" sell="60000" howprice=" -14.29%"></item>
+        
+        	<item name="Cá diêu hồng" sellbefore="65000" sell="44000" howprice=" -32.31%"></item>
+        
+        	<item name="Cá mè" sellbefore="40000" sell="40000" howprice=" 0%"></item>
+        
+        	<item name="Cá nục" sellbefore="65000" sell="65000" howprice=" 0%"></item>
+        
+        	<item name="Cá trắm" sellbefore="65000" sell="60000" howprice=" -7.69%"></item>
+        
+        	<item name="Đường RE (loại rời) Biên Hòa" sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Thịt ba chỉ" sellbefore="90000" sell="90000" howprice=" 0%"></item>
+        
+        	<item name="Thịt bò file" sellbefore="190000" sell="190000" howprice=" 0%"></item>
+        
+        	<item name="Thịt gà ta" sellbefore="120000" sell="120000" howprice=" 0%"></item>
+        
+        	<item name="Thịt nạc vai" sellbefore="-" sell="90000" howprice=" -"></item>
+        
+        	<item name="Cá chép" sellbefore="70000" sell="60000" howprice=" -14.29%"></item>
+        
+        	<item name="Cá diêu hồng" sellbefore="65000" sell="44000" howprice=" -32.31%"></item>
+        
+        	<item name="Cá mè" sellbefore="40000" sell="40000" howprice=" 0%"></item>
+        
+        	<item name="Cá nục" sellbefore="65000" sell="65000" howprice=" 0%"></item>
+        
+        	<item name="Cá trắm" sellbefore="65000" sell="60000" howprice=" -7.69%"></item>
+        
+        	<item name="Đường RE (loại rời) Biên Hòa" sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Thịt ba chỉ" sellbefore="85000" sell="90000" howprice=" 5.88%"></item>
+        
+        	<item name="Thịt bò file" sellbefore="190000" sell="190000" howprice=" 0%"></item>
+        
+        	<item name="Thịt gà ta" sellbefore="120000" sell="120000" howprice=" 0%"></item>
+        
+        	<item name="Thịt nạc vai" sellbefore="-" sell="90000" howprice=" -"></item>
+            
+        </catalogue>
+    	<catalogue id="3" name="Nang lu?ng">
+        
+        	<item name="Dầu hoả " sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Điêzen 0,05S" sellbefore="21550" sell="21250" howprice=" -1.39%"></item>
+        
+        	<item name="Điêzen 0,25S " sellbefore="21200" sell="21200" howprice=" 0%"></item>
+        
+        	<item name="Gas Ngọn lửa thần bình 12kg" sellbefore="390000" sell="390000" howprice=" 0%"></item>
+        
+        	<item name="Xăng A92" sellbefore="23330" sell="23330" howprice=" 0%"></item>
+        
+        	<item name="Dầu hoả " sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Điêzen 0,05S" sellbefore="21550" sell="21250" howprice=" -1.39%"></item>
+        
+        	<item name="Điêzen 0,25S " sellbefore="21200" sell="21200" howprice=" 0%"></item>
+        
+        	<item name="Gas Ngọn lửa thần bình 12kg" sellbefore="390000" sell="390000" howprice=" 0%"></item>
+        
+        	<item name="Xăng A92" sellbefore="23330" sell="23330" howprice=" 0%"></item>
+            
+        </catalogue>
+    </city>
+    <city id="2" name="Hà Nội">
+    	<catalogue id="1" name="Nông s?n">
+        
+        	<item name="Bắp cải trắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Bầu" sellbefore="8000" sell="8000" howprice=" 0%"></item>
+        
+        	<item name="Bí đỏ" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Bí xanh" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi da xanh" sellbefore="50000" sell="50000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi năm roi" sellbefore="15000" sell="15000" howprice=" 0%"></item>
+        
+        	<item name="Cà chua" sellbefore="7000" sell="12000" howprice=" 71.43%"></item>
+        
+        	<item name="Cà rốt" sellbefore="8000" sell="10000" howprice=" 25%"></item>
+        
+        	<item name="Cải ngọt" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Cam sành" sellbefore="23300" sell="45000" howprice=" 93.13%"></item>
+        
+        	<item name="Chanh" sellbefore="18000" sell="18000" howprice=" 0%"></item>
+        
+        	<item name="Củ cải trắng" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Dưa chuột" sellbefore="7000" sell="10000" howprice=" 42.86%"></item>
+        
+        	<item name="Gạo tám thơm Hải Hậu" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tẻ ngon" sellbefore="16000" sell="16000" howprice=" 0%"></item>
+        
+        	<item name="Khoai tây" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Lê" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Mướp đắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Nho Mỹ" sellbefore="130000" sell="130000" howprice=" 0%"></item>
+        
+        	<item name="Quýt" sellbefore="35000" sell="35000" howprice=" 0%"></item>
+        
+        	<item name="Rau muống" sellbefore="5000" sell="5000" howprice=" 0%"></item>
+        
+        	<item name="Su su" sellbefore="6000" sell="5000" howprice=" -16.67%"></item>
+        
+        	<item name="Táo" sellbefore="23000" sell="23000" howprice=" 0%"></item>
+        
+        	<item name="Táo (Mỹ)" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Thanh long" sellbefore="-" sell="15000" howprice=" -"></item>
+        
+        	<item name="Thịt Gà công nghiệp" sellbefore="80000" sell="80000" howprice=" 0%"></item>
+        
+        	<item name="Trứng gà công nghiệp" sellbefore="3000" sell="2300" howprice=" -23.33%"></item>
+        
+        	<item name="Trứng gà ta" sellbefore="4000" sell="4000" howprice=" 0%"></item>
+        
+        	<item name="Trứng vịt" sellbefore="3500" sell="3500" howprice=" 0%"></item>
+        
+        	<item name="Bắp cải trắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Bầu" sellbefore="8000" sell="8000" howprice=" 0%"></item>
+        
+        	<item name="Bí đỏ" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Bí xanh" sellbefore="8000" sell="6000" howprice=" -25%"></item>
+        
+        	<item name="Bưởi da xanh" sellbefore="50000" sell="50000" howprice=" 0%"></item>
+        
+        	<item name="Bưởi năm roi" sellbefore="15000" sell="15000" howprice=" 0%"></item>
+        
+        	<item name="Cà chua" sellbefore="12000" sell="12000" howprice=" 0%"></item>
+        
+        	<item name="Cà rốt" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Cải ngọt" sellbefore="7000" sell="12000" howprice=" 71.43%"></item>
+        
+        	<item name="Cam sành" sellbefore="55000" sell="45000" howprice=" -18.18%"></item>
+        
+        	<item name="Chanh" sellbefore="18000" sell="18000" howprice=" 0%"></item>
+        
+        	<item name="Củ cải trắng" sellbefore="6000" sell="6000" howprice=" 0%"></item>
+        
+        	<item name="Dưa chuột" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tám thơm Hải Hậu" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Gạo tẻ ngon" sellbefore="16000" sell="16000" howprice=" 0%"></item>
+        
+        	<item name="Khoai tây" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Lê" sellbefore="25000" sell="25000" howprice=" 0%"></item>
+        
+        	<item name="Mướp đắng" sellbefore="10000" sell="10000" howprice=" 0%"></item>
+        
+        	<item name="Nho Mỹ" sellbefore="130000" sell="130000" howprice=" 0%"></item>
+        
+        	<item name="Quýt" sellbefore="35000" sell="35000" howprice=" 0%"></item>
+        
+        	<item name="Rau muống" sellbefore="5000" sell="5000" howprice=" 0%"></item>
+        
+        	<item name="Su su" sellbefore="6000" sell="5000" howprice=" -16.67%"></item>
+        
+        	<item name="Táo" sellbefore="23000" sell="23000" howprice=" 0%"></item>
+        
+        	<item name="Táo (Mỹ)" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Thanh long" sellbefore="-" sell="15000" howprice=" -"></item>
+        
+        	<item name="Thịt Gà công nghiệp" sellbefore="80000" sell="80000" howprice=" 0%"></item>
+        
+        	<item name="Trứng gà công nghiệp" sellbefore="3000" sell="2300" howprice=" -23.33%"></item>
+        
+        	<item name="Trứng gà ta" sellbefore="4000" sell="4000" howprice=" 0%"></item>
+        
+        	<item name="Trứng vịt" sellbefore="3500" sell="3500" howprice=" 0%"></item>
+            
+        </catalogue>
+    	<catalogue id="2" name="Th?c ph?m">
+        
+        	<item name="Cá chép" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Cá diêu hồng" sellbefore="44000" sell="44000" howprice=" 0%"></item>
+        
+        	<item name="Cá mè" sellbefore="40000" sell="40000" howprice=" 0%"></item>
+        
+        	<item name="Cá nục" sellbefore="65000" sell="65000" howprice=" 0%"></item>
+        
+        	<item name="Cá trắm" sellbefore="65000" sell="60000" howprice=" -7.69%"></item>
+        
+        	<item name="Đường RE (loại rời) Biên Hòa" sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Thịt ba chỉ" sellbefore="90000" sell="90000" howprice=" 0%"></item>
+        
+        	<item name="Thịt bò file" sellbefore="190000" sell="190000" howprice=" 0%"></item>
+        
+        	<item name="Thịt gà ta" sellbefore="120000" sell="120000" howprice=" 0%"></item>
+        
+        	<item name="Thịt nạc vai" sellbefore="-" sell="90000" howprice=" -"></item>
+        
+        	<item name="Cá chép" sellbefore="70000" sell="60000" howprice=" -14.29%"></item>
+        
+        	<item name="Cá diêu hồng" sellbefore="44000" sell="44000" howprice=" 0%"></item>
+        
+        	<item name="Cá mè" sellbefore="40000" sell="40000" howprice=" 0%"></item>
+        
+        	<item name="Cá nục" sellbefore="65000" sell="65000" howprice=" 0%"></item>
+        
+        	<item name="Cá trắm" sellbefore="60000" sell="60000" howprice=" 0%"></item>
+        
+        	<item name="Đường RE (loại rời) Biên Hòa" sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Thịt ba chỉ" sellbefore="85000" sell="90000" howprice=" 5.88%"></item>
+        
+        	<item name="Thịt bò file" sellbefore="190000" sell="190000" howprice=" 0%"></item>
+        
+        	<item name="Thịt gà ta" sellbefore="120000" sell="120000" howprice=" 0%"></item>
+        
+        	<item name="Thịt nạc vai" sellbefore="-" sell="90000" howprice=" -"></item>
+            
+        </catalogue>
+    	<catalogue id="3" name="Nang lu?ng">
+        
+        	<item name="Dầu hoả " sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Điêzen 0,05S" sellbefore="21550" sell="21250" howprice=" -1.39%"></item>
+        
+        	<item name="Điêzen 0,25S " sellbefore="21200" sell="21200" howprice=" 0%"></item>
+        
+        	<item name="Gas Ngọn lửa thần bình 12kg" sellbefore="390000" sell="390000" howprice=" 0%"></item>
+        
+        	<item name="Xăng A92" sellbefore="23330" sell="23330" howprice=" 0%"></item>
+        
+        	<item name="Dầu hoả " sellbefore="21300" sell="21300" howprice=" 0%"></item>
+        
+        	<item name="Điêzen 0,05S" sellbefore="21550" sell="21250" howprice=" -1.39%"></item>
+        
+        	<item name="Điêzen 0,25S " sellbefore="21200" sell="21200" howprice=" 0%"></item>
+        
+        	<item name="Gas Ngọn lửa thần bình 12kg" sellbefore="390000" sell="390000" howprice=" 0%"></item>
+        
+        	<item name="Xăng A92" sellbefore="23330" sell="23330" howprice=" 0%"></item>
+            
+        </catalogue>
+    </city>
+    
+</ratelist>
+</root>
+

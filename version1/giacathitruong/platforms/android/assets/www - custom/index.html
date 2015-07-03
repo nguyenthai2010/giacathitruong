@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+
+<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+
+<title>PhoneGap</title>
+</head>
+<body onload="onLoad();">
+<div class="loading"><img src="images/loading.gif" width="50"/></div>
+<div class="container">
+	<!--block intro-->
+	<div class="block_intro" id="intro">
+		<div class="insite1"><img src="images/img_intro.png" /></div>
+		<div class="insite2">
+			<!--block1-->
+			<div class="block1">
+				<div class="bg"><img src="images/img_fruit.png" /></div>
+			</div>
+			<!--block2-->
+			<div class="block2">
+				<ul class="list_item">
+					<li><a class="processPriceCity" href="javascript:void(0)" select='1'>Nông sản</a></li>
+					<li><a class="processPriceCity" href="javascript:void(0)" select='2'>Thực phẩm</a></li>
+					<li><a class="processPriceCity" href="javascript:void(0)" select='3'>Năng Lượng</a></li>
+					<li><a class="processPriceCity" href="javascript:void(0)" select='4'>Mặt hàng khác</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--blockhome-->
+	<div class="block_home" id="home" style="display:none;">
+		<div class="header">
+			<div  style="position:relative; width:100% margin:0 auto;">
+				<div class="box_select" id="select" style="display:none;"><a href="#" class="t01"><p><span>Tp. HCM</span></p></a></div>
+				<ul class="list_header">
+					<li class="input">
+						<div class="outinput">
+							<input type="text" name="search" id="search" />
+							<img src="images/toolbar_find.png" width="20" />
+						</div>
+					</li>
+					<li>
+					<a href="#" id="select">
+						<img src="images/price_icon.png" width="30" />
+						<br clear="all" />
+						<span id="name">Tp. HCM</span>
+					</a>
+					<div class="box_menu">
+						<ul class="list_item">
+                        	<li><a href="#" id="local" select='0' >Tất cả</a></li>
+							<li><a href="#" id="local" select='1' >Nông sản</a></li>
+							<li><a href="#" id="local" select='2'>Thực phẩm</a></li>
+							<li><a href="#" id="local" select='3' >Năng Lượng</a></li>
+							<li><a href="#" id="local" select='4'>Mặt hàng khác</a></li>
+						</ul>
+					</div>	
+					</li>
+					<li><a href="#">
+						<p class="date">Ngày</p>
+						<span id="update"></span>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content t01"  id="listprices"></div>
+		<div class="content t01" id="priceTemp" style="display:none;"></div>
+	</div>
+</div>
+
+</body>
+</html>

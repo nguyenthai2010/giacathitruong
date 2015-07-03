@@ -1,0 +1,13 @@
+============ CREATE APP
+cd "D:\My Data\SOURCES\PHP\BLISS\PHONEGAP\workspace\GiaCaThiTruong\version1"
+cordova create giacathitruong com.HoaFE.giacathitruong giacathitruong
+cd giacathitruong
+cordova platform add android
+
+
+cd "D:\My Data\SOURCES\PHP\BLISS\PHONEGAP\workspace\GiaCaThiTruong\version1\giacathitruong"
+cordova plugin add org.apache.cordova.file
+cordova plugin add org.apache.cordova.network-information
+
+
+cordova platform update android
