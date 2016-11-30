@@ -5,6 +5,8 @@
 
     <meta charset="UTF-8">
     <title>Angular Demo</title>
+    <script src="cordova.js"></script>
+    <script src="cordova_plugins.js"></script>
     <script src="js/lib/angular/angular.min.js"></script>
     <script src="js/lib/angular/angular-route.min.js"></script>
     <script src="js/lib/angular/angular-animate.min.js"></script>
@@ -18,25 +20,23 @@
     <script src="js/app/class.homepage.js"></script>
     <script src="js/app/class.listpage.js"></script>
 
+    <script type="text/javascript" src="js/app/class.fileRead.js"></script>
+    <script type="text/javascript" src="js/app/class.fileWrite.js"></script>
+
     <link rel="stylesheet" href="css/all.css">
 
     <script type="text/javascript">
         var DEMO = false;
-        //DEMO = true;
-        if(!DEMO){
-            var script1 = document.createElement('script');
-            script1.src = 'cordova.js';
-            document.write(script1.outerHTML);
 
-            var script2 = document.createElement('script');
-            script2.src = 'cordova_plugins.js';
-            document.write(script2.outerHTML);
-        }
     </script>
 
 </head>
 <body onload="onLoad();">
-<div class="main" ng-controller="giacaController">
+<div id="loading">
+    <div class="overplay"></div>
+    <img src="images/loading.gif">
+</div>
+<div id="giacaController" class="main" ng-controller="giacaController">
     <!--Home-->
     <section class="homepage">
         <header class="menumain">
